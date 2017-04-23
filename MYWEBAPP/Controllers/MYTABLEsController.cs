@@ -14,7 +14,7 @@ namespace MYWEBAPP.Controllers
     {
         private MYDBEntities db = new MYDBEntities();
 
-        // GET: MYTABLEs
+        // ccccc GET: MYTABLEs
         public ActionResult Index()
         {
             return View(db.MYTABLEs.ToList());
